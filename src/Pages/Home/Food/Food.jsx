@@ -20,7 +20,7 @@ const Food = () => {
                     foods.map(food => <SingleFood key={food.id} food={food} />)
                 }
             </div>
-            <button className='mb-8 hover:bg-gray-400 font-semibold bg-gray-300 text-black px-8 py-4 rounded-lg'>Checkout Your Food</button>
+            <button className='mb-8 hover:bg-gray-300 font-semibold bg-gray-200 text-black px-8 py-4 rounded-lg'>Checkout Your Food</button>
         </>
     );
 };
