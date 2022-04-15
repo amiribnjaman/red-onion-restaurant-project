@@ -15,8 +15,10 @@ function App() {
         <Route path='/' element={<Home />} >
           <Route path=':foodName' element={<Food />} />
         </Route>
+        
         <Route path='/signup' element={<SignUp />} />
         <Route path='/login' element={<Login />} />
+
       </Routes>
       <Footer />
     </div>
