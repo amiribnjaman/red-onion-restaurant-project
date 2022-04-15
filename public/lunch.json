@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/Tr8XLsM/lunch1.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "24"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/9W6ycN2/lunch2.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "27"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/YLLQ6Bv/lunch3.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "35"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/BVS7ZbT/lunch4.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "18"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/G0My7KT/lunch5.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "15"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/ngsgqhC/lunch6.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "25"
+    }
+]
+
+
+
+
+

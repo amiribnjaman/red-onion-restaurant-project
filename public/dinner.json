@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/r2RKmmC/dinner1.png", "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "24"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/pb27J2b/dinner2.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "27"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/XxfLRyV/dinner3.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "35"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/drWmg7D/dinner4.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "18"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/R67HgyT/dinner5.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "15"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/xsSgYgM/dinner6.png", 
+        "name": "food name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "25"
+    }
+]
+
+
+
+
+
