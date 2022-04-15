@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../../Assets/img/logo2.png'
+import GoogleLogo from '../../../Assets/img/icons/Glogo.png'
 
 const Login = () => {
     return (
@@ -23,6 +23,15 @@ const Login = () => {
                         <button type="submit" className="text-white mt-8 bg-red-600 block py-3 rounded-full w-full focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm text-center">Login</button>
                     </div>
                     <Link to='/signup' className='text-sm my-3 block text-red-500 font-semibold'>Haven't Account? Create One.</Link>
+                    <div className='flex justify-center items-center my-3'>
+                        <div className='w-1/3 bg-gray-500 h-[1px] mr-3 mt-1'></div>
+                        <div>or</div>
+                        <div className='w-1/3 bg-gray-500 h-[1px]  ml-3 mt-1'></div>
+                    </div>
+                    <button className='flex justify-evenly items-center mt-2 border border-red-100 rounded-full w-full'>
+                        <img className='w-7 py-1' src={GoogleLogo} alt="" />
+                        <span className='font-semibold'>Sing in with Google</span>
+                    </button>
                 </form>
 
             </div>

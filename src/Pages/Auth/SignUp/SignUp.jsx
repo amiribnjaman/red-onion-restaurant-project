@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import GoogleLogo from '../../../Assets/img/icons/Glogo.png'
-import Logo from '../../../Assets/img/logo2.png'
 
 const SignUp = () => {
     return (
@@ -9,7 +8,7 @@ const SignUp = () => {
             {/* <img src={Banner} alt="" /> */}
             <div>
                 {/* <img width={170} className='mx-auto' src={Logo} alt="" /> */}
-                <h4 className='mt-4 mb-1 font-semibold text-2xl'>Create an <span className='text-red-500'>Account.</span></h4>
+                <h4 className='mt-2 font-semibold text-2xl'>Create an <span className='text-red-500'>Account.</span></h4>
                 <form className='shadow-lg px-7 rounded-md py-6'>
                     <div className="relative z-0 mb-5 w-full group">
                         <input type="text" name="floating_name" className="block py-2.5 w-full text-sm text-gray-900 bg-transparent border-0 border-b appearance-none focus:border-red-400 focus:outline-none focus:ring-0  peer" placeholder=" " required="" />
@@ -32,7 +31,7 @@ const SignUp = () => {
                         <button type="submit" className="text-white mt-4 bg-red-600 block py-3 rounded-full w-full focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm text-center">Sign Up</button>
                     </div>
                     <Link to='/login' className='text-sm mt-2 block text-red-500 font-semibold'>Already have an account?</Link>
-                    <div className='flex justify-center items-center my-4'>
+                    <div className='flex justify-center items-center my-3'>
                         <div className='w-1/3 bg-gray-500 h-[1px] mr-3 mt-1'></div>
                         <div>or</div>
                         <div className='w-1/3 bg-gray-500 h-[1px]  ml-3 mt-1'></div>
