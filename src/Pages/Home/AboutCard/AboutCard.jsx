@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AboutCard = ({ AboutImg, IconImg }) => {
+const AboutCard = ({ AboutImg, IconImg, title }) => {
     return (
         <div>
             <div>
@@ -14,7 +14,7 @@ const AboutCard = ({ AboutImg, IconImg }) => {
                         </div>
                         <div class="text-left">
                             <a href="#">
-                                <h5 class="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">Fast delivery</h5>
+                                <h5 class="mb-1 font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 text-sm pr-1 leading-5">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
                             <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-blue-500">

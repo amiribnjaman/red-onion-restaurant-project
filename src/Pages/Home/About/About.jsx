@@ -19,9 +19,9 @@ const About = () => {
                 <p className='text-sm text-gray-500'>Lorem, ipsum dolor sit amet consectetur</p>
             </div>
             <div className='grid md:grid-cols-3 gap-4'>
-                <AboutCard AboutImg={AboutImg1} IconImg={FastDeliveryImg} />
-                <AboutCard AboutImg={AboutImg2} IconImg={HomeDeliveryImg} />
-                <AboutCard AboutImg={AboutImg3} IconImg={BellIcon} />
+                <AboutCard AboutImg={AboutImg1} title="Fast Delivery" IconImg={FastDeliveryImg} />
+                <AboutCard AboutImg={AboutImg2} title="A Good Auto Responder" IconImg={BellIcon} />
+                <AboutCard AboutImg={AboutImg3} title="Home Delivery" IconImg={HomeDeliveryImg} />
             </div>
         </div>
     );
