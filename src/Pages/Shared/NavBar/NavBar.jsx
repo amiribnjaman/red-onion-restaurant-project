@@ -27,7 +27,7 @@ const NavBar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/" className="block py-2 pr-4 pl-3 text-black rounded md:bg-transparent text-base md:text-black md:p-0 dark:text-white" aria-current="page">
+                                <Link to="/login" className="block py-2 pr-4 pl-3 text-black rounded md:bg-transparent text-base md:text-black md:p-0 dark:text-white" aria-current="page">
                                     Login
                                 </Link>
                             </li>
