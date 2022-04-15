@@ -15,18 +15,18 @@ const Foodes = () => {
                     <li>
                         <button 
                         onClick={() => navigateFood('lunch')}
-                        style={location.pathname.includes('lunch') ? {color: 'red', borderBottom: '1px solid red', paddingBottom: '6px'} : {color: 'black'}}
-                        className="block py-2 text-md pr-4 pl-3 font-semibold text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Lunch</button>
+                        style={location.pathname.includes('lunch') ? {color: 'red', borderBottom: '2px solid red', padding: '0 5px 6px 5px'} : {color: 'black'}}
+                        className="block py-2 text-md pr-4 pl-3 font-semibold text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-base">Lunch</button>
                     </li>
                     <li>
                         <button onClick={() => navigateFood('breakfast')} 
-                        style={location.pathname.includes('breakfast') ? {color: 'red', borderBottom: '1px solid red', paddingBottom: '6px'} : {color: 'black'}}
-                        className="block py-2 pr-4 pl-3 text-gray-700 font-semibold md:bg-transparent md:p-0 dark:text-white" aria-current="page">Breakfast</button>
+                        style={location.pathname.includes('breakfast') ? {color: 'red', borderBottom: '2px solid red', padding: '0 5px 6px 5px'} : {color: 'black'}}
+                        className="block py-2 pr-4 pl-3 text-gray-700 font-semibold  md:p-0 text-base" aria-current="page">Breakfast</button>
                     </li>
                     <li>
                         <button onClick={() => navigateFood('dinner')} 
-                        style={location.pathname.includes('dinner') ? {color: 'red', borderBottom: '1px solid red', paddingBottom: '6px'} : {color: 'black'}}
-                        className="block py-2 pr-4 pl-3 text-gray-700 font-semibold border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400">Dinner</button>
+                        style={location.pathname.includes('dinner') ? {color: 'red', borderBottom: '2px solid red', padding: '0 5px 6px 5px'} : {color: 'black'}}
+                        className="block py-2 pr-4 pl-3 text-gray-700 font-semibold border-b border-gray-100 hover:bg-gray-50 text-base md:border-0  md:p-0 ">Dinner</button>
                     </li>
                 </ul>
             </nav>

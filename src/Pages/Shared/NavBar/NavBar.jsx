@@ -27,13 +27,13 @@ const NavBar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/" className="block py-2 pr-4 pl-3 text-black rounded md:bg-transparent md:text-black md:p-0 dark:text-white" aria-current="page">
+                                <Link to="/" className="block py-2 pr-4 pl-3 text-black rounded md:bg-transparent text-base md:text-black md:p-0 dark:text-white" aria-current="page">
                                     Login
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/" className="block py-2 pr-4 pl-3 text-base text-white rounded md:bg-transparent md:text-black md:p-0 dark:text-white" aria-current="page">
-                                    <button type="button" className="focus:outline-none text-white bg-red-600 hover:bg-red-700 focus:ring-0 font-medium rounded-full text-sm px-8 py-2 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Sign Up</button>
+                                <Link to="/signup" className="block py-2 pr-4 pl-3 text-base text-white rounded md:bg-transparent md:text-black md:p-0 dark:text-white" aria-current="page">
+                                    <button type="button" className="focus:outline-none text-white bg-red-600 hover:bg-red-700 focus:ring-0 font-medium rounded-full text-sm px-8 py-2.5 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Sign Up</button>
                                 </Link>
                             </li>
                         </ul>

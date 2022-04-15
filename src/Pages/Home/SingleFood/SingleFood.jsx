@@ -10,9 +10,9 @@ const SingleFood = ({ food }) => {
                     <img className="rounded-t-lg" src={img} alt="" />
                 </div>
                 <div className="p-5">
-                    <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology</h5>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <h5 className='text-lg font-semibold'>Price: ${price}</h5>
+                    <h5 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology</h5>
+                    <p className="mb-3 font-normal text-sm text-gray-500 dark:text-gray-400">Here are the biggest enterprise technology </p>
+                    <h5 className='text-lg font-semibold'>${price}</h5>
 
                 </div>
             </div>
