@@ -3,6 +3,7 @@ import './App.css';
 import Login from './Pages/Auth/Login/Login';
 import SignUp from './Pages/Auth/SignUp/SignUp';
 import Food from './Pages/Home/Food/Food';
+import FoodDetails from './Pages/Home/FoodDetails/FoodDetails';
 import Home from './Pages/Home/Home/Home';
 import Footer from './Pages/Shared/Footer/Footer';
 import NavBar from './Pages/Shared/NavBar/NavBar';
@@ -16,6 +17,8 @@ function App() {
           <Route path=':foodName' element={<Food />} />
         </Route>
         
+        <Route path='/food-details/:category-:foodId' element={<FoodDetails />} />
+
         <Route path='/signup' element={<SignUp />} />
         <Route path='/login' element={<Login />} />
 

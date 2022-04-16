@@ -8,7 +8,7 @@ const Food = () => {
     const { foodName } = params
 
     useEffect(() => {
-        fetch(`${foodName}.json`)
+        fetch(`./data/${foodName}.json`)
             .then(data => data.json())
             .then(res => setFoods(res))
     }, [foodName])
