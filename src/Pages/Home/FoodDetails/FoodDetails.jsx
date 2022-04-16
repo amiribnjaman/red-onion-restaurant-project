@@ -5,8 +5,7 @@ const FoodDetails = () => {
     const [foodCategory, setFoodCategory] = useState([])
     const {category, foodId} = useParams()
     const selectedItem = foodCategory.find(item => item.id == foodId)
-    console.log(selectedItem);
-    const {img} = selectedItem
+    // console.log(selectedItem);
 
     useEffect(() => {
         fetch(`./../data/${category}.json`, {
@@ -21,7 +20,7 @@ const FoodDetails = () => {
 
     return (
         <div>
-            <img src={img} alt="" />
+            <img src={selectedItem?.img} alt="" />
         </div>
     );
 };
